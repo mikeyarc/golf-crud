@@ -1,0 +1,64 @@
+.f-container {
+    background-color: lightgreen;
+    text-align: center;
+    display: block;
+    padding:40px;
+
+}
+.f-form {
+    padding:30px;
+    display: inline-flex;
+    text-align: center;
+    background-color: forestgreen;
+    padding: 40px;
+    border-radius: 20px 20px 20px 20px;
+}
+.f-group {
+    display: inline-flex;
+    position:absolute;
+    right: 0;
+}
+.f-label {
+    display: inline;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    font: bold;
+    width: 50%;
+    padding:10px;
+    color: lightgreen;
+}
+.f-input {
+    display: flex;
+    background-color: gainsboro;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.title {
+    padding:30px;
+    font-family: 'Lato', sans-serif;
+    font-size: 65px ;
+    font: bold;
+    color:black darkgreen;
+
+}
+.f-button {
+    background-color: black;
+}
+
+.logo-img {
+    height: 200px;
+}
+
+/*Mobile Responsive screen sizes*/
+@media only screen and (max-width: 360px) {
+    
+
+}
+@media only screen and (max-width: 375px) {
+    .f-container{
+        width: 100%;
+    }    
+
+}
